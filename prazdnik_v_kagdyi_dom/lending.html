@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>Праздник в каждый дом</title>
+    <link rel="stylesheet" type="text/css" href="./gptstyle.css" />
+    <link rel="icon" href="./logo.jpeg">
+  </head>
+  <body>
+    <header>
+        <div class="logo">
+            <img src="./logo.jpeg" />
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Акции</a></li>
+                <li><a href="#">Поиск</a></li>
+                <li><a href="#">Управление бронированием</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="booking-algorithm">
+        <!-- Инфографика алгоритма бронирования -->
+    </section>
+    
+    <section class="company-info">
+        <h2>О нас</h2>
+        <p>Главная цель компании – сделать праздник незабываемым для детей и их родителей.</p>
+        <p>Подарим волшебство для Ваших детей!</p>
+        <div class="reviews">
+            <h2>Отзывы наших клиентов:</h2>
+            <p>
+                Светлана
+                Спасибо большое! Дети в бурных эмоция, аниматор супер, даже взрослые участвовали, как это было все классно, энергично, здорово!
+                Успехов вам больших!
+            </p>
+            <p>
+                Марина
+                ДР ребенка 3 года, аниматоры молодцы, все очень хорошо подготовили!
+                Крош отработал на 5, все дети в восторге! Шоу мыльных пузырей с погружением чудесное и волшебное! Детям хотелось немного больше контакта с пузырями!
+                Ребят, только на счет подарка в конце шоу оговаривайте с родителями! Иногда шоколад маленьким детям дарить не стоит!
+            </p>
+            <p>
+                Алена
+                Всё очень понравилось.
+                Игры хорошие, аниматоры отличные, костюмы классные! Дети были восторге!!!
+            </p>
+            <p>
+                Наталия 
+                Уже не первый раз заказываем праздник у вас, как всегда вы огромные специалисты и мастера своего дела!
+                Отлично всё: от приёма заказа, до финала праздника. Удачи и до новых встреч!!
+            </p>
+        </div>
+    </section>
+    
+    <form action="./search_results.html" method="get">
+        <select name="region">
+            <option value="Москва">Москва</option>
+            <option value="Санкт-Петербург">Санкт-Петербург</option>
+            <!-- Другие регионы -->
+        </select>
+        <input type="date" name="event_date">
+        <h4>Сколько будет взрослых?</h4>
+        <input type="number" name="adults" min="1" max="50">
+        <h4>Сколько будет детей?</h4>
+        <input type="number" name="children" min="0" max="50">
+        <button type="submit">Поиск</button>
+    </form>
+    
+    <section class="promotions">
+        <!-- Список акций -->
+    </section>
+    
+    <form action="/subscribe" method="post">
+        <input type="email" name="email">
+        <button type="submit">Подписаться</button>
+    </form>
+    
+    <footer>
+        <p>Телефон: 8 (800) 111-20-20</p>
+        <nav>
+            <ul>
+                <!-- Ссылки для навигации -->
+            </ul>
+        </nav>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

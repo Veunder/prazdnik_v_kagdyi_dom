@@ -1,0 +1,43 @@
+/* Стили для шапки */
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f0f0f0;
+}
+
+/* Стили для формы заказа */
+#order-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#order-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#order-form input[type="text"],
+#order-form input[type="date"],
+#order-form input[type="number"],
+#order-form input[type="email"],
+#order-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#order-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#order-form button:hover {
+    background-color: #0056b3;
+}

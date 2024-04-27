@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оформление заказа</title>
+    <!-- Подключение CSS стилей -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header>
+        <h1>Оформление заказа</h1>
+    </header>
+
+    <!-- Форма заказа и выбора дополнительных услуг -->
+    <section id="order-form">
+        <h2>Данные о заказе</h2>
+        <form action="submit_order.php" method="POST">
+            <label for="region">Регион:</label>
+            <input type="text" id="region" name="region" required>
+            <label for="location">Адрес локации:</label>
+            <input type="text" id="location" name="location" required>
+            <label for="date">Дата мероприятия:</label>
+            <input type="date" id="date" name="date" required>
+            <label for="guests">Количество человек:</label>
+            <input type="number" id="guests" name="guests" required>
+            
+            <h2>Выбор дополнительных услуг</h2>
+            <input type="checkbox" id="catering" name="catering">
+            <label for="catering">Организация питания</label><br>
+            <input type="checkbox" id="animators" name="animators">
+            <label for="animators">Услуги аниматоров</label><br>
+            <input type="checkbox" id="host" name="host">
+            <label for="host">Услуги ведущего</label><br>
+            <input type="checkbox" id="kids_taxi" name="kids_taxi">
+            <label for="kids_taxi">Услуги детского такси</label><br>
+            
+            <label for="comment">Дополнительный комментарий:</label>
+            <textarea id="comment" name="comment" rows="4"></textarea>
+            
+            <label for="email">Email заказчика:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <button type="submit">Оформить бронирование</button>
+        </form>
+    </section>
+
+    <!-- Футер сайта -->
+    <footer>
+        <p>Телефон: 8 (800) 111-20-20</p>
+    </footer>
+</body>
+</html>

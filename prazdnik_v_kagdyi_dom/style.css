@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff; /* Белый фон */
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex; /* Размещение элементов шапки в ряд */
+    justify-content: space-between; /* Распределение элементов по ширине */
+    align-items: center; /* Вертикальное выравнивание элементов */
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  nav ul li a:hover {
+    color: grey;
+  }
+
+  .logo {
+    margin-right: 20px;
+  }
+  
+  .logo img {
+    width: 100px;
+    height: auto;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  hr {
+    margin: 40px 0; /* Верхний и нижний отступы */
+    border: 1px solid #000; /* Чёрная полоса */
+  }
+  section {
+    padding: 40px 0;
+  }
+  
+  section h1 {
+    color: #333;
+    font-size: 36px; /* Увеличение размера заголовка */
+  }
+  
+  section.reviews {
+    overflow-x: auto;
+    padding: 20px;
+}
+
+.review {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    padding: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #f0f0f0; /* светло-серый */
+}
+
+.review p {
+    margin-top: 10px;
+}
+
+  
+  .promotion img {
+    width: 200px;
+    height: auto;
+  }
+  section li {
+    display: flex; /* Размещение отзыва в ряд */
+    align-items: flex-start; /* Вертикальное выравнивание */
+    margin-bottom: 20px; /* Отступ между отзывами */
+  }
+  
+  section li img {
+    width: 50px; /* Ширина аватарки */
+    height: 50px; /* Высота аватарки */
+    border-radius: 50%; /* Скругление углов */
+    margin-right: 10px; /* Отступ между аватаркой и текстом */
+  }
+  
+  section li p {
+    font-size: 16px; /* Увеличение размера текста */
+  }
+  #поиск {
+    padding: 40px 0;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px 15px; /* Увеличение отступа справа */
+  }
+  
+  .quantity-group {
+    display: flex; /* Размещение полей ввода в одну строку */
+    justify-content: space-between; /* Распределение элементов по ширине */
+  }
+  
+  .quantity-group input[type="number"] {
+    width: 48%; /* Ширина полей ввода */
+  }
+  #акции {
+    padding: 40px 0;
+  }
+  
+  .promotion {
+    display: flex;
+    align-items: center; /* Вертикальное выравнивание */
+    margin-bottom: 20px; /* Отступ между акциями */
+  }        
+
+  footer {
+    background-color: #333; /* темно-серый */
+    padding: 20px;
+    color: #fff; /* белый */
+    text-align: center;
+}

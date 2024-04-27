@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Результаты поиска локаций</title>
+    <!-- Подключение CSS стилей -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header>
+        <div class="logo">
+            <img src="./logo.jpeg" alt="Логотип компании">
+        </div>
+        <h4>Результаты поиска локаций</h4>
+    </header>
+
+    <!-- Секция с результатами поиска -->
+    <section id="results">
+        <div class="location">
+            <h2>Ростов-на-Дону</h2>
+            <h3>Поляна сказок</h3>
+            <p>Адрес: ул. Лесная, д. 10</p>
+            <p>Дата мероприятия: 15 августа 2024 </p>
+            <p>Количество свободных зон: 3</p>
+            <form action="./bron.html">
+                <button onclick="selectZone()">Выбрать зону</button>
+            </form>
+        </div>
+
+        <div class="location">
+            <h3>Черная жемчужина</h3>
+            <p>Адрес: пр. Набережная, д. 5</p>
+            <p>Дата мероприятия: 27 июня 2024</p>
+            <p>Количество свободных зон: 1</p>
+            <form action="./bron.html">
+                <button onclick="selectZone()">Выбрать зону</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Футер сайта -->
+    <footer>
+        <p>Телефон: 8 (800) 111-20-20</p>
+    </footer>
+</body>
+</html>
